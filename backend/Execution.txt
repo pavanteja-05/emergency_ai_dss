@@ -1,0 +1,5 @@
+cd C:\Users\pavan\Downloads\emergency_ai_dss\backend
+python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+cd C:\Users\pavan\Downloads\emergency_ai_dss\backend
+python -m streamlit run dashboard.py
