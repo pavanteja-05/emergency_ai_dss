@@ -102,7 +102,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ### Step 7: Launch Streamlit Dashboard (Terminal 2)
 ```bash
 cd backend
-streamlit run dashboard.py --server.port 8501
+python -m streamlit run dashboard.py
 ```
 
 ## Access Points
